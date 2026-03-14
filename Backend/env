@@ -1,0 +1,18 @@
+# Connect to Supabase via connection pooling
+DATABASE_URL="postgresql://postgres.bpfancmpoxudduxuyynb:8688572805%40Srmist@aws-1-ap-south-1.pooler.supabase.com:6543/postgres?pgbouncer=true"
+
+# Direct connection to the database. Used for migrations
+DIRECT_URL="postgresql://postgres.bpfancmpoxudduxuyynb:8688572805%40Srmist@aws-1-ap-south-1.pooler.supabase.com:5432/postgres"
+
+
+# ── AUTOMATED EMAIL ALERTS ──
+
+# The Gmail address that will SEND the alerts (e.g., nexacorp.bot@gmail.com)
+ALERT_EMAIL_SENDER="venkat7969s@gmail.com"
+
+# The 16-character Google App Password (NOT your normal Gmail password)
+# How to get this: Google Account -> Security -> 2-Step Verification -> App Passwords
+ALERT_EMAIL_PASSWORD="lykdexsqcndhdvdg"
+
+# The CIO's real inbox where you want to RECEIVE the crisis alerts
+ALERT_EMAIL_RECIPIENT="diyaash42@gmail.com"
